@@ -1,0 +1,33 @@
+{
+  "resources": [],
+  "Options": [],
+  "isDnDProject": true,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [],
+  "Folders": [],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Acrade8Bit-Regular.ttf","resourceType":"GMIncludedFile",},
+  ],
+  "MetaData": {
+    "IDEVersion": "2022.2.1.618",
+    "PackageType": "Asset",
+    "PackageName": "Arcade 8Bit Font",
+    "PackageID": "com.fontify.arcadefont",
+    "PackagePublisher": "Fontify",
+    "PackageVersion": "1.0.0",
+  },
+  "resourceVersion": "1.5",
+  "name": "arcadefont",
+  "tags": [],
+  "resourceType": "GMProject",
+}
