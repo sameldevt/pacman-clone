@@ -1,4 +1,5 @@
-spd = 1;
+speed = 1;
+direction = 0;
 
 col_objects = [obj_wall_border,
 				obj_wall_curve,
