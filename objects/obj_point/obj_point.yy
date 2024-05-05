@@ -6,8 +6,8 @@
   "name":"obj_point",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"points",
+    "path":"folders/Objects/points.yy",
   },
   "parentObjectId":null,
   "persistent":false,

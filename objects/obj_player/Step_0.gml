@@ -1,3 +1,22 @@
+if(place_meeting(x+speed, y, obj_col_teleport))
+{
+	x = 24;
+	y = 248;	
+}
+else if (place_meeting(x-speed, y, obj_col_teleport))
+{
+	x = 408;
+	y = 248;	
+}
+
+show_debug_message(string(x) + " - " + string(y))
+
+if(is_dead)
+{
+	speed = 0;
+	return;	
+}
+
 var _key_pressed = keyboard_lastkey;
 
 if(speed <= 0)

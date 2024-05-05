@@ -1,0 +1,1 @@
+obj_blue_ghost.follow_player();

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"red_ghost",
-    "path":"folders/Sprites/red_ghost.yy",
+    "path":"folders/Sprites/ghosts/red_ghost.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

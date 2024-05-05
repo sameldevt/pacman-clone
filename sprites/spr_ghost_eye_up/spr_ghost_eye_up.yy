@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"ghost_eyes",
-    "path":"folders/Sprites/ghost_eyes.yy",
+    "path":"folders/Sprites/ghosts/ghost_eyes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

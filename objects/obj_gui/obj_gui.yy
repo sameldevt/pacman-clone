@@ -9,8 +9,8 @@
   "name":"obj_gui",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"gui",
+    "path":"folders/Objects/gui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

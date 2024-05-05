@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"purple_ghost",
-    "path":"folders/Sprites/purple_ghost.yy",
+    "path":"folders/Sprites/ghosts/purple_ghost.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

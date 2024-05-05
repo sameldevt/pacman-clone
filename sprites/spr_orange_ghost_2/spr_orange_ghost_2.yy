@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"orange_ghost",
-    "path":"folders/Sprites/orange_ghost.yy",
+    "path":"folders/Sprites/ghosts/orange_ghost.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
