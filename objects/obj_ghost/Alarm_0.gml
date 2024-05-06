@@ -1,0 +1,1 @@
+sprite_index = ghost_sprites[0];

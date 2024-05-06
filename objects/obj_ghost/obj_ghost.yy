@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_blue_ghost",
+  "%Name":"obj_ghost",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_blue_ghost",
+  "name":"obj_ghost",
   "overriddenProperties":[],
   "parent":{
     "name":"enemies",
     "path":"folders/Objects/enemies.yy",
   },
-  "parentObjectId":{
-    "name":"obj_ghost",
-    "path":"objects/obj_ghost/obj_ghost.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,11 +28,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_blue_ghost_1",
-    "path":"sprites/spr_blue_ghost_1/spr_blue_ghost_1.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

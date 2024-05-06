@@ -16,7 +16,7 @@ if(global.powerup)
 	alarm[0] = game_get_speed(gamespeed_fps) * 2;
 }
 
-with(obj_blue_ghost)
+with(obj_red_ghost)
 {
 	randomize();
 	if(place_snapped(8,8))

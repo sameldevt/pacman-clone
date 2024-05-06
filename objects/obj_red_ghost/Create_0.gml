@@ -1,6 +1,7 @@
 speed = 1;
 direction = 0;
 isdead = false;
+
 col_objects = [obj_wall_border,
 				obj_wall_curve,
 				obj_wall_four_intersection,
@@ -12,5 +13,5 @@ col_objects = [obj_wall_border,
 				obj_wall_three_intersection,
 				obj_wall_three_side_intersection,
 				obj_ghost_door];
-ghost_sprites = [spr_blue_ghost_1, spr_blue_ghost_2, spr_blue_ghost_3];	
+ghost_sprites = [spr_red_ghost_1, spr_red_ghost_2, spr_red_ghost_3];	
 eye_sprites = [spr_ghost_eye_hzt, spr_ghost_eye_up, spr_ghost_eye_down];
