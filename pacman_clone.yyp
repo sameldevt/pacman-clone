@@ -16,8 +16,8 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"blocks","folderPath":"folders/Objects/blocks.yy","name":"blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Objects/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"controllers","folderPath":"folders/Objects/controllers.yy","name":"controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Objects/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player","folderPath":"folders/Objects/player.yy","name":"player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"points","folderPath":"folders/Objects/points.yy","name":"points","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"pacman_clone",
   "resources":[
@@ -75,6 +75,7 @@
     {"id":{"name":"obj_wall_three_intersection","path":"objects/obj_wall_three_intersection/obj_wall_three_intersection.yy",},},
     {"id":{"name":"obj_wall_three_side_intersection","path":"objects/obj_wall_three_side_intersection/obj_wall_three_side_intersection.yy",},},
     {"id":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
+    {"id":{"name":"src_ghost_movement","path":"scripts/src_ghost_movement/src_ghost_movement.yy",},},
     {"id":{"name":"spr_blue_ghost_1","path":"sprites/spr_blue_ghost_1/spr_blue_ghost_1.yy",},},
     {"id":{"name":"spr_blue_ghost_2","path":"sprites/spr_blue_ghost_2/spr_blue_ghost_2.yy",},},
     {"id":{"name":"spr_blue_ghost_3","path":"sprites/spr_blue_ghost_3/spr_blue_ghost_3.yy",},},

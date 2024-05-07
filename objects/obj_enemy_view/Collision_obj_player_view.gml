@@ -1,1 +1,1 @@
-obj_blue_ghost.follow_player();
+alarm[0] = game_get_speed(gamespeed_fps);

@@ -26,7 +26,7 @@ if(speed <= 0)
 switch(_key_pressed)
 {
 	case vk_up:
-		if(!place_meeting(x, y-speed, col_objects))
+		if(!place_meeting(x, y-speed, global.col_objects))
 		{
 			direction = 90;
 			image_angle = 90;
@@ -35,7 +35,7 @@ switch(_key_pressed)
 		break;
 		
 	case vk_down:
-		if(!place_meeting(x, y+speed, col_objects))
+		if(!place_meeting(x, y+speed, global.col_objects))
 		{
 			direction = 270;
 			image_angle = 270;	
@@ -44,7 +44,7 @@ switch(_key_pressed)
 		break;
 		
 	case vk_right:
-		if(!place_meeting(x+speed, y, col_objects))
+		if(!place_meeting(x+speed, y, global.col_objects))
 		{
 			direction = 0;
 			image_angle = 0;	
@@ -53,7 +53,7 @@ switch(_key_pressed)
 		break;
 		
 	case vk_left:
-		if(!place_meeting(x-speed, y, col_objects))
+		if(!place_meeting(x-speed, y, global.col_objects))
 		{
 			direction = 180;
 			image_angle = 180;
@@ -65,7 +65,7 @@ switch(_key_pressed)
 switch(direction)
 {
 	case 90:
-		if(place_meeting(x, y-speed, col_objects))
+		if(place_meeting(x, y-speed, global.col_objects))
 		{
 			speed = 0;
 		}
@@ -73,7 +73,7 @@ switch(direction)
 		break;
 		
 	case 270:
-		if(place_meeting(x, y+speed, col_objects))
+		if(place_meeting(x, y+speed, global.col_objects))
 		{
 			speed = 0;
 		}
@@ -81,7 +81,7 @@ switch(direction)
 		break;
 		
 	case 0:
-		if(place_meeting(x+speed, y, col_objects))
+		if(place_meeting(x+speed, y, global.col_objects))
 		{
 			speed = 0;	
 		}
@@ -89,7 +89,7 @@ switch(direction)
 		break;
 
 	case 180:
-		if(place_meeting(x-speed, y, col_objects))
+		if(place_meeting(x-speed, y, global.col_objects))
 		{
 			speed = 0;
 		}
